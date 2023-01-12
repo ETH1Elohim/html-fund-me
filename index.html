@@ -4,15 +4,15 @@
     <title>Fund Me App</title>
 </head>
 <body>
-    Hello!
-    <script src="./index.js" type="text/javascript">
-        
+    Shalom! Welcome to my very basic Fund Me App:
+    <script src="./index.js" type="module">  
     </script>
-    <button id="connectButton" onclick="connect()">
-        Connect Wallet
-    </button>
-    <button id="fund" onClick="fund()">
-        Fund
-    </button>
+    <button id="connectButton">Connect Wallet</button>
+    <button id="balanceButton">Get Balance</button>
+    <button id="withdrawButton">Withdraw Balance</button>
+    <button id="fundButton">Fund</button>
+    <!-- form-->
+    <label for="fund">ETH Amount</label>
+    <input id="ethAmount" placeholder="0.1"/>
 </body>
 </html>
